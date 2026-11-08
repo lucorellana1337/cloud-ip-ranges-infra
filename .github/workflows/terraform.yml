@@ -1,0 +1,33 @@
+name: terraform
+
+on:
+  push:
+    paths: ["terraform/**", ".github/workflows/terraform.yml"]
+  pull_request:
+    paths: ["terraform/**"]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        dir:
+          - terraform/modules/vpc
+          - terraform/modules/provider-allowlist
+          - terraform/examples/web-edge
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: hashicorp/setup-terraform@v3
+
+      - name: terraform fmt
+        run: terraform fmt -check -recursive -diff terraform
+
+      - name: terraform init
+        working-directory: ${{ matrix.dir }}
+        run: terraform init -backend=false -input=false
+
+      - name: terraform validate
+        working-directory: ${{ matrix.dir }}
+        run: terraform validate

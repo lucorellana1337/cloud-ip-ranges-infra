@@ -1,0 +1,33 @@
+{
+  "provider": "oracle",
+  "checked_at": "2026-11-08T23:53:29Z",
+  "status": "ok",
+  "ipv4_prefixes": 1118,
+  "ipv6_prefixes": 0,
+  "ipv4_addresses": 4483082,
+  "added": 0,
+  "removed": 0,
+  "sha256": "ff208bae298802f8",
+  "top_groups": [
+    [
+      "us-ashburn-1",
+      72
+    ],
+    [
+      "eu-frankfurt-1",
+      61
+    ],
+    [
+      "us-phoenix-1",
+      57
+    ],
+    [
+      "uk-london-1",
+      44
+    ],
+    [
+      "sa-saopaulo-1",
+      41
+    ]
+  ]
+}

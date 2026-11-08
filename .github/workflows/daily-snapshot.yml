@@ -1,0 +1,38 @@
+name: daily-ip-snapshot
+
+on:
+  schedule:
+    - cron: "23 15 * * *" # every day 15:23 UTC (~12:23 Chile)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-ip-snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Commits must be authored with an email linked to your account to count
+      # on the contribution graph. Default: your GitHub noreply address.
+      # Override with repo variables COMMIT_NAME / COMMIT_EMAIL if you prefer.
+      - name: Configure git author
+        run: |
+          git config user.name  "${{ vars.COMMIT_NAME  || github.repository_owner }}"
+          git config user.email "${{ vars.COMMIT_EMAIL || format('{0}+{1}@users.noreply.github.com', github.repository_owner_id, github.repository_owner) }}"
+
+      - name: Collect snapshots and commit
+        run: bash scripts/run_daily.sh
+
+      - name: Push
+        run: git push

@@ -1,0 +1,33 @@
+{
+  "provider": "gcp",
+  "checked_at": "2026-11-08T23:53:30Z",
+  "status": "ok",
+  "ipv4_prefixes": 1058,
+  "ipv6_prefixes": 95,
+  "ipv4_addresses": 19385984,
+  "added": 0,
+  "removed": 0,
+  "sha256": "be2c9f71562c344e",
+  "top_groups": [
+    [
+      "us-central1",
+      111
+    ],
+    [
+      "us-west1",
+      70
+    ],
+    [
+      "europe-west1",
+      57
+    ],
+    [
+      "us-east4",
+      55
+    ],
+    [
+      "asia-southeast1",
+      52
+    ]
+  ]
+}

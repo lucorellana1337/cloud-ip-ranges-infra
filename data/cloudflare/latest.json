@@ -1,0 +1,17 @@
+{
+  "provider": "cloudflare",
+  "checked_at": "2026-11-08T23:53:28Z",
+  "status": "ok",
+  "ipv4_prefixes": 15,
+  "ipv6_prefixes": 7,
+  "ipv4_addresses": 1524736,
+  "added": 0,
+  "removed": 0,
+  "sha256": "c0fed51536fc2dd9",
+  "top_groups": [
+    [
+      "edge",
+      22
+    ]
+  ]
+}

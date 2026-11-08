@@ -1,0 +1,33 @@
+{
+  "provider": "github",
+  "checked_at": "2026-11-08T23:53:32Z",
+  "status": "ok",
+  "ipv4_prefixes": 5991,
+  "ipv6_prefixes": 2734,
+  "ipv4_addresses": 28662535,
+  "added": 0,
+  "removed": 0,
+  "sha256": "1deac5db1e47b728",
+  "top_groups": [
+    [
+      "actions",
+      8350
+    ],
+    [
+      "codespaces",
+      191
+    ],
+    [
+      "web",
+      59
+    ],
+    [
+      "packages",
+      29
+    ],
+    [
+      "shared_ingress",
+      26
+    ]
+  ]
+}

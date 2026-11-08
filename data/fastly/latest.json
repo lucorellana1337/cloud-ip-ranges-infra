@@ -1,0 +1,17 @@
+{
+  "provider": "fastly",
+  "checked_at": "2026-11-08T23:53:30Z",
+  "status": "ok",
+  "ipv4_prefixes": 21,
+  "ipv6_prefixes": 3,
+  "ipv4_addresses": 353280,
+  "added": 0,
+  "removed": 0,
+  "sha256": "681b26085437be94",
+  "top_groups": [
+    [
+      "edge",
+      24
+    ]
+  ]
+}
