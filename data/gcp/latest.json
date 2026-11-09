@@ -1,6 +1,6 @@
 {
   "provider": "gcp",
-  "checked_at": "2026-11-09T00:03:10Z",
+  "checked_at": "2026-11-09T23:47:45Z",
   "status": "ok",
   "ipv4_prefixes": 1058,
   "ipv6_prefixes": 95,
