@@ -17,7 +17,7 @@ jobs:
           - terraform/modules/provider-allowlist
           - terraform/examples/web-edge
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - uses: hashicorp/setup-terraform@v3
 
