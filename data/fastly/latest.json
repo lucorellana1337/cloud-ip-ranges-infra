@@ -1,6 +1,6 @@
 {
   "provider": "fastly",
-  "checked_at": "2026-11-09T23:47:44Z",
+  "checked_at": "2026-11-11T22:01:40Z",
   "status": "ok",
   "ipv4_prefixes": 21,
   "ipv6_prefixes": 3,
