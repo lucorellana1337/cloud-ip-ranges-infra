@@ -1,13 +1,13 @@
 {
   "provider": "github",
-  "checked_at": "2026-11-12T21:51:51Z",
+  "checked_at": "2026-11-13T21:27:26Z",
   "status": "ok",
-  "ipv4_prefixes": 6003,
+  "ipv4_prefixes": 6008,
   "ipv6_prefixes": 2734,
-  "ipv4_addresses": 28662802,
-  "added": 12,
-  "removed": 5,
-  "sha256": "e96e5a645060932e",
+  "ipv4_addresses": 28662882,
+  "added": 5,
+  "removed": 0,
+  "sha256": "3a78d6175c88bc2b",
   "top_groups": [
     [
       "actions",
@@ -19,7 +19,7 @@
     ],
     [
       "web",
-      76
+      81
     ],
     [
       "packages",
