@@ -1,17 +1,17 @@
 {
   "provider": "aws",
-  "checked_at": "2026-11-19T22:41:53Z",
+  "checked_at": "2026-11-20T22:15:36Z",
   "status": "ok",
-  "ipv4_prefixes": 7959,
-  "ipv6_prefixes": 3532,
-  "ipv4_addresses": 102745293,
-  "added": 8,
-  "removed": 1,
-  "sha256": "bad01bfaf1ca134f",
+  "ipv4_prefixes": 7963,
+  "ipv6_prefixes": 3535,
+  "ipv4_addresses": 102747725,
+  "added": 7,
+  "removed": 0,
+  "sha256": "b5856c5ab48c0a7e",
   "top_groups": [
     [
       "us-east-1",
-      1449
+      1451
     ],
     [
       "us-west-2",
@@ -19,7 +19,7 @@
     ],
     [
       "eu-central-1",
-      653
+      654
     ],
     [
       "us-west-1",
