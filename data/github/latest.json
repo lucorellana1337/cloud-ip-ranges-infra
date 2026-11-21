@@ -1,11 +1,11 @@
 {
   "provider": "github",
-  "checked_at": "2026-11-19T22:41:52Z",
+  "checked_at": "2026-11-21T20:55:35Z",
   "status": "ok",
   "ipv4_prefixes": 6012,
   "ipv6_prefixes": 2734,
   "ipv4_addresses": 28662946,
-  "added": 4,
+  "added": 0,
   "removed": 0,
   "sha256": "a85a54bdf6404f53",
   "top_groups": [
